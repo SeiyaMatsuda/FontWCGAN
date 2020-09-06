@@ -37,8 +37,9 @@ GoogleNews-vectors を使用してベクトル化する．なお文
 字フォントに複数の印象語が付いている場合には，そのう
 ち1 つをランダムに選んで条件として利用する．
 ## 実際に印象語を指定し生成された画像
- ### manuscriptを条件とし生成
-![manuscript](./imgs/fake_manuscript.png) ![manuscript](./imgs/fake_manuscript.png)
+ |印象語"manuscript"を持つフォント|印象語"manuscript"をもとに生成された画像|
+ |---|---|
+|![manuscript](./imgs/fake_manuscript.png)|![manuscript](./imgs/fake_manuscript.png)|
 ### shadingを条件とし生成
 ![shading](./imgs/fake_shading.png)<br>
 ### sansを条件とし生成
