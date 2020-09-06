@@ -1,5 +1,5 @@
 # FontWCGAN
-##はじめに
+## はじめに
 本研究では条件付き敵対的生成ネットワーク（Conditional
 Generative Adversarial Networks，GANs）[1] を
 用いて，ユーザが指定した印象語を条件とした文字フォン
