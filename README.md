@@ -1,6 +1,6 @@
 # FontWCGAN
 ## はじめに
-本研究では条件付き敵対的生成ネットワーク（Conditional
+条件付き敵対的生成ネットワーク（Conditional
 Generative Adversarial Networks，GANs）[1] を
 用いて，ユーザが指定した印象語を条件とした文字フォン
 トを生成するモデルを構築する．文字フォントのデザイン
@@ -11,8 +11,8 @@ Generative Adversarial Networks，GANs）[1] を
 ネットワークによる生成モデルの発展は，従来のデザイナ
 による文字フォント生成という形からデザインの知識を持
 たないユーザが用途に応じた文字フォントの生成を行うこ
-とを可能にする．そのため，本研究では生成モデルの一つ
-であるConditionalGAN を用いて，文字フォントを生成す
+とを可能にする．そのため，生成モデルの一つ
+であるConditionalGAN を用いて，文字フォントを生成する
 ## 提案する生成モデル
 図1 に提案する文字フォント生成ネットワークを示す．
 通常のGAN では一様分布から画像生成を行うため, 生成
@@ -38,7 +38,7 @@ GoogleNews-vectors を使用してベクトル化する．なお文
 ち1 つをランダムに選んで条件として利用する．
 ## 実際に印象語を指定し生成された画像
  ### manuscriptを条件とし生成
-![manuscript](./imgs/fake_manuscript.png)<br>
+![manuscript](./imgs/fake_manuscript.png) ![manuscript](./imgs/fake_manuscript.png)
 ### shadingを条件とし生成
 ![shading](./imgs/fake_shading.png)<br>
 ### sansを条件とし生成
