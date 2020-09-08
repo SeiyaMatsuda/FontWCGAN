@@ -43,15 +43,15 @@ GoogleNews-vectors を使用してベクトル化する．なお文
 
  |印象語"shading"を持つフォント|印象語"shading"をもとに生成された画像|
  |---|---|
-|![shading](./imgs/real_shading.png)|![manuscript](./imgs/fake_shading.png)|
+|![shading](./imgs/real_shading.png)|![shading](./imgs/fake_shading.png)|
 
  |印象語"sans"を持つフォント|印象語"sans"をもとに生成された画像|
  |---|---|
-|![sans](./imgs/real_sans.png)|![manuscript](./imgs/fake_sans.png)|
+|![sans](./imgs/real_sans.png)|![sans](./imgs/fake_sans.png)|
 
  |印象語"serif"を持つフォント|印象語"serif"をもとに生成された画像|
  |---|---|
-|![sans](./imgs/real_serif.png)|![manuscript](./imgs/fake_serif.png)|
+|![serif](./imgs/real_serif.png)|![serif](./imgs/fake_serif.png)|
 ## まとめ
 特定印象を考慮した文字フォントの生成を行うことができるネットワークモデルを提案した．その結
 果，一定の印象を反映したと考えられる文字フォントを生
